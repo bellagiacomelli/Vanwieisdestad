@@ -1,0 +1,75 @@
+html, body {
+  width: 1200;
+  background-color:  rgb(252,252,252);
+  text-align: center;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.page {
+  width: 100%;
+  padding: 20px 0 0;
+}
+
+a {
+  color: black;
+  overflow: scroll;
+}
+
+.bmd-modalButton {
+  width: 100%;
+/*  display: block;*/
+  margin: 5px auto;
+  padding: 10px 10px;
+  background-color:#ffffff;
+  border:1px solid #e3e3e3;
+  display:inline-block;
+  cursor:pointer;
+  color:#000000;
+  font-family:Arial;
+  font-size:20px;
+  font-weight:;
+  padding:6px 12px;
+  text-decoration:none;
+}
+
+.close-button {
+  overflow: hidden;
+}
+
+.bmd-modalContent {
+  box-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+  
+.bmd-modalContent .close {
+  font-size: 30px;
+  line-height: 30px;
+  padding: 7px 4px 7px 13px;
+  text-shadow: none;
+  opacity: .9;
+  color:#fff;
+}
+
+.bmd-modalContent .close span {
+  display: block;
+}
+
+.bmd-modalContent .close:hover,
+.bmd-modalContent .close:focus {
+  opacity: 1;
+  outline: none;
+}
+
+.bmd-modalContent iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+  width: 16%;
+  padding: 5px;
+
+}
