@@ -1,5 +1,4 @@
 html, body {
-  width: 1200;
   background-color:  rgb(252,252,252);
   text-align: center;
   font-family: arial;
@@ -8,12 +7,23 @@ html, body {
 
 .page {
   width: 100%;
-  padding: 20px 0 0;
+  padding: 0px 0 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial;
+  font-size: 50px;
 }
 
 a {
   color: black;
   overflow: scroll;
+}
+
+img.animated-gif{
+  width: 180px;
+  height: auto;
 }
 
 .bmd-modalButton {
@@ -70,6 +80,6 @@ a {
 .column {
   float: left;
   width: 16%;
-  padding: 5px;
+  padding: 2px;
 
 }
